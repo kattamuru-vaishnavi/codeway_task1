@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body {
+            align-items: center;
+            color: black;
+            background-image: linear-gradient(to bottom right, black, grey);
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 20px 0px;
+            color: black;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        #container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(123, 197, 221, 0.9);
+        }
+
+        #name {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: left;
+        }
+
+        h6 {
+            text-align: center;
+        }
+
+        #list {
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        img {
+            height: 100px;
+            width: 150px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        ul {
+            list-style-position: inside;
+            text-align: left;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+        }
+
+        footer {
+            color: black;
+            background-color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 id="name">Kattamuru Vaishnavi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h2 id="about">About me:</h2>
+        <section>
+            <img src="https://i.pinimg.com/564x/6c/cc/73/6ccc7364fddee013ccc20f659dc0b7be.jpg">
+            <div>
+                <p style="text-align: center;">Hello, I'm Kattamuru Vaishnavi, a passionate and dedicated individual with a good foundation in web development and programming. Being a student in the world of technology has given me a range of skills and a strong desire to keep learning.</p>
+            </div>
+        </section>
+
+        <h4 id="education">Education:</h4>
+        <p style="padding-left: 50px;" >(2022-2026)-Currently pursuing B.Tech 2nd year in CSBS(Computer Science and Business Systems) at 
+            Vishnu Institute of Technology, combining practical experiences with academic knowledge.</p>
+            <p style="padding-left: 50px;" >(2020-2022)-Secured 85%(CBSE) in Intermediate.</p>
+            <p style="padding-left: 50px;" >(2019-2020)-Secured 99.5% in SSC</p>
+            <hr> <h2 id="skills">Skills:</h2>
+            <ul>
+                <li><strong> Frontend:</strong>
+                    <ol>
+                        <li> HTML: Advanced</li>
+                        <li>CSS:Intermediate</li>
+                        <li>JavaScript:Intermediate</li>
+                    </ol>
+                </li><br>
+                <li><strong> Programming languages:</strong></li>
+                <ol>
+                    <li>Python Programming</li>
+                    <li>C Programming</li>
+                    <li>Java Programming</li>
+                    <li>R programming(basic)</li>
+                </ol>
+            </ul>
+            <hr>
+        
+            <h2 id="projects">Project:</h2>
+            <section>
+                <img src="Screenshot 2024-02-18 112431.png" >
+                <img src="Screenshot 2024-02-18 112648.png">
+                <div>
+                    <p style="text-align: center;"> Develop a solution to connect local businesses with potential customers in low-income areas,
+                        fostering economic growth and reducing poverty. This platform leverages technology to create a sustainable and inclusive ecosystem that 
+                        benefits both businesses and residents. The platform encourages businesses to engage in social responsibility initiatives, such as hiring locally,
+                         supporting community projects, and promoting sustainable practices. This not only enhances the businesses' reputation but also contributes to the overall well-being of the community.</p>
+                </div>
+            </section>
+            <h2>Mini project:</h2>
+            <section>
+                <img src="Screenshot 2024-02-20 192719.png" >
+                <img src="Screenshot 2024-02-20 192817.png">
+                <p>Manage your finances with ease using our Personal and coorporate Finance Tracker – a powerful tool designed to help you stay in control of your money. 
+                    This intuitive tracker offers a range of features to simplify expense management and financial planning.
+                    Here you can effortlessly record your expenditures, including amount, category, and date, for a comprehensive overview of your spending habits.
+                    You can receive timely alerts if your expenses exceed the set limits or a certain percentage of your income, helping you avoid financial surprises.</p>
+            </section>
+            <br>
+            </b><hr>
+        
+            <h2 id="resume"> My Resume:</h2>
+            <a href="resume new vaishnavi.pdf" target="_blank"> click here to download my resume</a>
+            <br><br><hr>
+        
+            <h2 id="contact">Contact Details:</h2>
+            <p style="padding-left: 50px;"><strong>Phone Number:</strong>8106132423</p>
+            <p style="padding-left: 50px;"><strong>LinkedIn:</strong><a href="https://www.linkedin.com/in/vaishnavi-kattamuru-a268b4267">My Profile</a></p>
+        
+            <p style="padding-left: 50px;"><strong>Email:</strong>vkattamuru.01@gmail.com</p>
+            <p style="padding-left: 50px;"><strong>Address:</strong>Srirampuram,Bhimavaram</p>
+        
+            <hr>
+        
+            <br> <br>
+        
+            <footer>&copy; 2024 K.Vaishnavi|All rights reserved</footer>
+        </div>
+</body>
+</html>        
